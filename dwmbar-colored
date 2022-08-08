@@ -19,9 +19,6 @@ else
   echo "No change"
 fi
 
-# source ~/.local/bin/statusbar/themes/gruvbox
-# source ~/.local/bin/statusbar/themes/nord
-
 interval=0
 
 weather(){
@@ -244,7 +241,7 @@ while true; do
   space=" "
   range="|"
   
-  #xsetroot -name "$updates$(nettrf)$(tmp)$(cpu)$(mem)$(vol)$(lit)$(bat)$(key)$(dat)$(net)"
+  # xsetroot -name "$updates$(nettrf)$(tmp)$(cpu)$(mem)$(vol)$(lit)$(bat)$(key)$(dat)$(net)"
   # xsetroot -name "$(cpu)$(mem)$(vol)$(lit)$(bat)$(key)$(dat)$(net)"
   # xsetroot -name "$updates$(cpu)$(mem)$(lit)$(bat)$(dat)$(net)"
   # xsetroot -name "$(cpubar)$(weather)$(cpu)$(tmp)$(mem)$(bat)$(vol)$(nx)$(lix)$(win)$(dat)$(net)"
